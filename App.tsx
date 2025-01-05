@@ -35,9 +35,7 @@ const App = () => {
       <Pressable style={{padding: 10, backgroundColor: 'red'}}>
         <Text>Best</Text>
       </Pressable>
-      <Text>
-        {theName}" "{a + b}
-      </Text>
+      <Text>{theName}</Text>
     </SafeAreaView>
   );
 };
