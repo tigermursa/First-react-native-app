@@ -33,9 +33,9 @@ const App = () => {
         <Text>Hello Bangladesh</Text>
       </TouchableOpacity>
       <Pressable style={{padding: 10, backgroundColor: 'red'}}>
-        <Text>Best</Text>
+        <Text>Bestii</Text>
       </Pressable>
-      <Text>{theName}</Text>
+      <Text className="text-2xl text-red-700">{theName}</Text>
     </SafeAreaView>
   );
 };
